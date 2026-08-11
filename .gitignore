@@ -1,0 +1,51 @@
+# ── Secrets ──────────────────────────────────
+.env
+*.env
+*.pem
+*.key
+
+# ── Python ───────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+pip-log.txt
+*.egg-info/
+dist/
+build/
+.eggs/
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+
+# ── Node / Frontend ──────────────────────────
+node_modules/
+frontend/dist/
+frontend/.vite/
+*.tsbuildinfo
+
+# ── Docker ───────────────────────────────────
+docker-compose.override.yml
+
+# ── Uploads / Data ───────────────────────────
+backend/uploads/
+postgres_data/
+redis_data/
+ollama_data/
+
+# ── OS ───────────────────────────────────────
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# ── IDE ──────────────────────────────────────
+.vscode/settings.json
+.idea/
+*.iml
